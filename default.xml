@@ -501,7 +501,7 @@
   <project path="packages/providers/ThemesProvider" name="MoKee/android_packages_providers_ThemesProvider" />
   <project path="packages/providers/TvProvider" remote="third" name="ThirdProject/android_packages_providers_TvProvider" />
   <project path="packages/providers/UserDictionaryProvider" remote="third" name="ThirdProject/android_packages_providers_UserDictionaryProvider" />
-  <project path="packages/inputmethods/LatinIME" name="Lucasili/android_packages_inputmethods_LatinIME" remote="Euphoria-OS" revision="lollipop-5.1" />
+  <project path="packages/inputmethods/LatinIME" name="Lucasili/android_packages_inputmethods_LatinIME" remote="github" revision="lollipop-5.1" />
   <project path="packages/services/Mms" name="MoKee/android_packages_services_Mms" />
   <project path="packages/services/Telecomm" name="Lucasili/MoKee_android_packages_services_Telecomm" remote="github"/>
   <project path="packages/services/Telephony" name="Lucasili/MoKee_android_packages_services_Telephony" remote="github"/>
