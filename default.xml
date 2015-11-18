@@ -24,7 +24,7 @@
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="MoKee/android_build" groups="pdk,tradefed" >
+  <project path="build" name="Lucasili/Mokee_android_build" groups="pdk,tradefed" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <copyfile src="build-script" dest="mk" />
   </project>
@@ -276,7 +276,7 @@
   <project path="external/nfacct" name="platform/external/nfacct" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/nist-pkits" name="platform/external/nist-pkits" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/nist-sip" remote="third" name="ThirdProject/android_external_nist-sip" groups="pdk-cw-fs" />
-  <project path="external/noto-fonts" name="platform/external/noto-fonts" remote="aosp" />
+  <project path="external/noto-fonts" name="Lucasili/external_noto-fonts" groups="pdk" remote="github" revision="master" />
   <project path="external/ntfs-3g" remote="third" name="ThirdProject/android_external_ntfs-3g" />
   <project path="external/oauth" name="platform/external/oauth" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/objenesis" name="platform/external/objenesis" groups="pdk-cw-fs" remote="aosp" />
@@ -346,7 +346,7 @@
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" remote="aosp" />
   <project path="frameworks/av" name="MoKee/android_frameworks_av" groups="pdk" />
-  <project path="frameworks/base" name="MoKee/android_frameworks_base" />
+  <project path="frameworks/base" name="Lucasili/MoKee_android_frameworks_base" />
   <project path="frameworks/compile/libbcc" remote="third" name="ThirdProject/android_frameworks_compile_libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" remote="third" name="ThirdProject/android_frameworks_compile_mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" remote="third" name="ThirdProject/android_frameworks_compile_slang" groups="pdk" />
@@ -454,22 +454,19 @@
   <project path="packages/apps/Camera2" name="MoKee/android_packages_apps_Camera2" />
   <project path="packages/apps/CellBroadcastReceiver" remote="third" name="ThirdProject/android_packages_apps_CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" remote="third" name="ThirdProject/android_packages_apps_CertInstaller" />
-  <project path="packages/apps/CMFileManager" name="MoKee/android_packages_apps_CMFileManager" />
-  <project path="packages/apps/Contacts" name="MoKee/android_packages_apps_Contacts" />
+  <project path="packages/apps/Contacts" name="Lucasili/MoKee_android_packages_apps_Contacts" />
   <project path="packages/apps/ContactsCommon" name="MoKee/android_packages_apps_ContactsCommon" />
-  <project path="packages/apps/DeskClock" name="MoKee/android_packages_apps_DeskClock" />
+  <project path="packages/apps/DeskClock" name="Lucasili/MoKee_android_packages_apps_DeskClock" />
   <project path="packages/apps/Dialer" name="MoKee/android_packages_apps_Dialer" />
-  <project path="packages/apps/Eleven" name="MoKee/android_packages_apps_Eleven" />
   <project path="packages/apps/Email" name="MoKee/android_packages_apps_Email" />
   <project path="packages/apps/Exchange" remote="third" name="ThirdProject/android_packages_apps_Exchange" />
   <project path="packages/apps/Gallery2" name="MoKee/android_packages_apps_Gallery2" />
   <project path="packages/apps/HTMLViewer" remote="third" name="ThirdProject/android_packages_apps_HTMLViewer" />
-  <project path="packages/apps/InCallUI" name="MoKee/android_packages_apps_InCallUI" />
+  <project path="packages/apps/InCallUI" name="Lucasili/MoKee_android_packages_apps_InCallUI" />
   <project path="packages/apps/KeyChain" remote="third" name="ThirdProject/android_packages_apps_KeyChain" />
   <project path="packages/apps/LockClock" name="MoKee/android_packages_apps_LockClock" />
   <project path="packages/apps/ManagedProvisioning" remote="third" name="ThirdProject/android_packages_apps_ManagedProvisioning" />
   <project path="packages/apps/Mms" name="MoKee/android_packages_apps_Mms-caf" />
-  <!--<project path="packages/apps/MoKeeHome" name="MoKee/android_packages_apps_MoKeeHome" />-->
   <project path="packages/apps/MoKeeLauncher" name="MoKee/android_packages_apps_MoKeeLauncher" />
   <project path="packages/apps/MoKeeSetupWizard" name="MoKee/android_packages_apps_MoKeeSetupWizard" />
   <project path="packages/apps/Nfc" remote="third" name="ThirdProject/android_packages_apps_Nfc" />
@@ -478,7 +475,7 @@
   <project path="packages/apps/PhoneCommon" remote="third" name="ThirdProject/android_packages_apps_PhoneCommon" />
   <project path="packages/apps/Profiles" name="MoKee/android_packages_apps_Profiles" />
   <project path="packages/apps/Provision" remote="third" name="ThirdProject/android_packages_apps_Provision" />
-  <project path="packages/apps/Settings" name="MoKee/android_packages_apps_Settings" />
+  <project path="packages/apps/Settings" name="Lucasili/Mokee_android_packages_apps_Settings" />
   <project path="packages/apps/SmartCardService" remote="third" name="ThirdProject/android_packages_apps_SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="MoKee/android_packages_apps_SoundRecorder" />
   <project path="packages/apps/SpeechRecorder" remote="third" name="ThirdProject/android_packages_apps_SpeechRecorder" />
@@ -499,20 +496,10 @@
   <project path="packages/providers/ThemesProvider" name="MoKee/android_packages_providers_ThemesProvider" />
   <project path="packages/providers/TvProvider" remote="third" name="ThirdProject/android_packages_providers_TvProvider" />
   <project path="packages/providers/UserDictionaryProvider" remote="third" name="ThirdProject/android_packages_providers_UserDictionaryProvider" />
-  <project path="packages/screensavers/Basic" remote="third" name="ThirdProject/android_packages_screensavers_Basic" />
-  <project path="packages/screensavers/PhotoTable" remote="third" name="ThirdProject/android_packages_screensavers_PhotoTable" />
-  <project path="packages/screensavers/WebView" remote="third" name="ThirdProject/android_packages_screensavers_WebView" />
+  <project path="packages/inputmethods/LatinIME" name="Lucasili/android_packages_inputmethods_LatinIME" remote="Euphoria-OS" revision="lollipop-5.1" />
   <project path="packages/services/Mms" name="MoKee/android_packages_services_Mms" />
-  <project path="packages/services/Telecomm" name="MoKee/android_packages_services_Telecomm" />
-  <project path="packages/services/Telephony" name="MoKee/android_packages_services_Telephony" />
-  <project path="packages/wallpapers/Basic" remote="third" name="ThirdProject/android_packages_wallpapers_Basic" />
-  <project path="packages/wallpapers/Galaxy4" remote="third" name="ThirdProject/android_packages_wallpapers_Galaxy4" />
-  <project path="packages/wallpapers/HoloSpiral" remote="third" name="ThirdProject/android_packages_wallpapers_HoloSpiral" />
-  <project path="packages/wallpapers/LivePicker" remote="third" name="ThirdProject/android_packages_wallpapers_LivePicker" />
-  <project path="packages/wallpapers/MagicSmoke" remote="third" name="ThirdProject/android_packages_wallpapers_MagicSmoke" />
-  <project path="packages/wallpapers/MusicVisualization" remote="third" name="ThirdProject/android_packages_wallpapers_MusicVisualization" />
-  <project path="packages/wallpapers/NoiseField" remote="third" name="ThirdProject/android_packages_wallpapers_NoiseField" />
-  <project path="packages/wallpapers/PhaseBeam" remote="third" name="ThirdProject/android_packages_wallpapers_PhaseBeam" />
+  <project path="packages/services/Telecomm" name="Lucasili/MoKee_android_packages_services_Telecomm" />
+  <project path="packages/services/Telephony" name="Lucasili/MoKee_android_packages_services_Telephony" />
   <project path="pdk" name="platform/pdk" groups="pdk" remote="aosp" />
   <project path="prebuilts/android-emulator" name="platform/prebuilts/android-emulator" clone-depth="1" remote="aosp" />
   <project path="prebuilts/clang/darwin-x86/3.1" name="platform/prebuilts/clang/darwin-x86/3.1" groups="pdk,darwin" remote="aosp" />
@@ -568,7 +555,7 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" remote="aosp" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" remote="aosp" />
   <project path="sdk" name="platform/sdk" remote="aosp" />
-  <project path="system/core" name="MoKee/android_system_core" groups="pdk" />
+  <project path="system/core" name="Lucasili/MoKee_android_system_core" groups="pdk" />
   <project path="system/extras" remote="third" name="ThirdProject/android_system_extras" groups="pdk" />
   <project path="system/extras/su" name="MoKee/android_system_extras_su" />
   <project path="system/keymaster" remote="third" name="ThirdProject/android_system_keymaster" groups="pdk" />
@@ -589,6 +576,6 @@
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" remote="aosp" />
   <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" remote="aosp" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" />
-  <project path="vendor/mk" name="MoKee/android_vendor_mk" />
+  <project path="vendor/mk" name="Lucasili/android_vendor_mk" />
   <project path="vendor/mksdk" name="MoKee/mk_platform_sdk" />
 </manifest>
